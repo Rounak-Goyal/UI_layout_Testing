@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccessActivity"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="80dp"
+        android:id="@+id/logo"
+        android:layout_height="80dp"
+        android:background="@drawable/index"
+        />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/uploadsuccess" />
+    <Button
+        android:id="@+id/uploadMore"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:text="Upload more"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#5C5B5B"/>
+    <Button
+        android:id="@+id/home"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="670dp"
+        android:layout_centerHorizontal="true"
+        android:text="Home"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="5dp"
+        android:backgroundTint="#232222"/>
+
+</RelativeLayout>

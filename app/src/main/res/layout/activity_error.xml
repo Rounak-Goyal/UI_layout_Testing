@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ErrorActivity"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="80dp"
+        android:id="@+id/logo"
+        android:layout_height="80dp"
+        android:background="@drawable/index"
+        />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="400dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/error44" />
+
+
+    <Button
+        android:id="@+id/tryAgain"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="590dp"
+        android:layout_centerHorizontal="true"
+        android:text="Try Again"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#5C5B5B"/>
+    <Button
+        android:id="@+id/uploadAgain"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="650dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="5dp"
+        android:text="Upload Again"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#232222"/>
+
+
+</RelativeLayout>
