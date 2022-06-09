@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SuccessActivity"
-    android:background="@color/white">
+    android:background="#262726">
     <ImageView
         android:layout_width="80dp"
         android:id="@+id/logo"
@@ -18,8 +18,19 @@
         android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="180dp"
         android:background="@drawable/uploadsuccess" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:text="Upload Successful!"
+        android:layout_marginTop="430dp"
+        android:textColor="#7EBA4A"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
     <Button
         android:id="@+id/uploadMore"
         android:layout_width="350dp"

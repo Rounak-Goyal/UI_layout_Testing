@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SubmitActivity"
-    android:background="@color/white">
+    android:background="#1B1B1B">
     <ImageView
         android:layout_width="80dp"
         android:id="@+id/logo"
@@ -14,22 +14,14 @@
         android:background="@drawable/index"
         />
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/logo"
-        android:textSize="8sp"
-        android:textStyle="bold"
-        android:layout_marginTop="2dp"
-        android:textColor="#4A4848" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginTop="100dp"
-        android:layout_marginStart="30dp"
         android:text="Image preview "
-        android:textColor="#4A4848" />
+        android:textColor="#AEABAB" />
 
     <ImageView
         android:layout_width="350dp"
@@ -51,7 +43,7 @@
         android:background="@drawable/border_img"
         android:cropToPadding="true"
         android:padding="1dp"
-        android:backgroundTint="#232222"
+        android:backgroundTint="#101010"
         android:scaleType="centerCrop"
         tools:listitem="@layout/support_simple_spinner_dropdown_item" />
     <Button

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ErrorActivity"
-    android:background="@color/white">
+    android:background="#191B22">
     <ImageView
         android:layout_width="80dp"
         android:id="@+id/logo"
@@ -14,11 +14,21 @@
         />
 
     <ImageView
-        android:layout_width="1000dp"
+        android:layout_width="800dp"
         android:layout_height="400dp"
         android:layout_marginHorizontal="10dp"
         android:layout_marginTop="110dp"
-        android:background="@drawable/error44" />
+        android:background="@drawable/error55" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:text="Aaah! Something went wrong"
+        android:layout_marginTop="480dp"
+        android:textColor="#5FA7CD"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
 
 
     <Button
@@ -30,7 +40,7 @@
         android:text="Try Again"
         android:textAllCaps="false"
         android:textSize="16sp"
-        android:backgroundTint="#5C5B5B"/>
+        android:backgroundTint="#0571AC"/>
     <Button
         android:id="@+id/uploadAgain"
         android:layout_width="200dp"
@@ -41,7 +51,7 @@
         android:text="Upload Again"
         android:textAllCaps="false"
         android:textSize="16sp"
-        android:backgroundTint="#232222"/>
+        android:backgroundTint="#1E1E1E"/>
 
 
 </RelativeLayout>
